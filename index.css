@@ -47,6 +47,7 @@ h1{
 
 #add_task_button{
     /* width: 2rem; */
+    background-color:#C6E7FF;
     text-indent: 0vmax;
     font-size: 12px;
 }
