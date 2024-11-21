@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: #0093E9;
+background-image: linear-gradient(160deg,#D4F6FF 40%, #FBFBFB 60%, #C6E7FF 80%, #C6E7FF 10%, #D2E0FB 30%, #D1E9F6 40%,#D4F6FF 40%, #FBFBFB 60%, #C6E7FF 80%) ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.outer{
+    position: relative;
+    left: 30rem;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 20rem;
+    box-shadow: 0px 0px 5px black;
+}
+
+#input_field{
+    height: 2rem;
+    padding: 5px;
+    background-color: #C6E7FF;
+    border: none;
+}
+
+li{
+    text-transform: uppercase;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.ri-file-list-3-line{
+    font-size: 1.5rem;
+    position: relative;
+    top: -1.5px;
+}
+
+#add_task_button{
+    /* width: 2rem; */
+    text-indent: 0vmax;
+    font-size: 12px;
+}
+
+::placeholder{
+    color: black;
+}
+
+/* Button styles */
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-indent: -9999px; /* Hide text by default */
+}
+
+button.show-text {
+    text-indent: 0; /* Show text when expanded */
+}
+
+button.expanded {
+    text-indent: 0;
+}
+
+.red-button {
+    background-color: red;
+    color: black;
+}
+
+.green-button {
+    background-color: green;
+    color: black;
+}
+
+.yellow-button {
+    background-color: yellow;
+    color: black;
+}
+
+/* Task container styles */
+.task {
+    margin: 10px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between text and buttons */
+}
+
+/* Task text */
+.task-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Delete button styles */
+.delete-button {
+    background-color: #e74c3c;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-indent: 0vmax;
+}
+
+/* Add Task button stays unchanged */
+#add_task_button {
+    padding: 10px 20px;
+    background-color: #E4F8FD;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#add_task_button:hover {
+    background-color: #E4F8FD;
+}
